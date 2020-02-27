@@ -9,8 +9,16 @@
 <body>
     <div>
         <h1>
-        Bienvenido
+        Opciones
         </h1>
+        <hr />
+        <a href="/Video/Index">Ver lista de videos</a>
+        <hr />
+        <a href="/Video/Creates">Agregar video</a>
+        <hr />
+        <a href="/Video/Delete">Eliminar video</a>
+        <hr />
+        <a href="/Video/Modify">Modificar video</a>
     </div>
 </body>
 </html>
