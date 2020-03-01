@@ -4,14 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Creates</title>
-    <link href="../../Site.css" rel="stylesheet" type="text/css" />
+    <title>Modificar</title>
 </head>
 <body>
-    <form action="/Video/Creates" method="post">
-    
+    <form action="/Video/Update" method="post">
     <fieldset>
-    <legend> Datos video </legend> 
     <label for="idvideo"> idvideo </label>
     <input type="text" name="idvideo" />
 
@@ -24,8 +21,8 @@
     <label for="url" > url</label>
     <input type="text" name="url"/>
 
-    <input type="submit"value="Registrar"/>
+    <input type="submit"value="Modificar"/>
     </fieldset>
-    <form />
+    </form>
 </body>
 </html>
